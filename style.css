@@ -1,0 +1,151 @@
+/* Google Web Font : Montserrat */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Manrope:300,400,500,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+/* Source sans pro */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;600&display=swap');
+/* Overpass */
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;600&display=swap');
+
+
+/* FontAwesome CDN 4.7 */
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/* Reset CSS */
+* { box-sizing: border-box; }
+ul { list-style: none; padding: 0;}
+a { text-decoration: none; }
+
+/* Default CSS */
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #222;
+  font-size: 15px;
+  margin: 0;
+  height: 100vh;
+  background-color: #fff;
+}
+
+/* Header */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  /* border: 1px solid #000; */
+  /* background-color: #ddd; */
+  border-right: 1px solid #dddddd;
+}
+ .logo { 
+   float:left; 
+  }
+
+ .logo img {
+  width: 70%;
+  transform: translate(14px, 15px);
+}
+.logo a {
+  border: 1px solid #dddddd;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: block;
+  transform: translate(100%, 157%);
+}
+
+.slogan { 
+  font-size: 16px; 
+  transform: translate(126%, 800%);
+}
+
+/*  SNS */
+.sns {
+  transform: translate(0%, 1000%);
+  /* border: 1px solid #000; */
+  width: 100%;
+  margin-left: 0px;
+}
+.sns a {
+  transform: translate(0%, 0%);
+  font-size: 15px;
+  color: #000;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  /* border: 1px solid #000; */
+  /* border-radius: 50%; */
+  text-align: center;
+  line-height: 30px;
+  margin-left: 0px;
+  
+  position: relative;
+  transition: 0.5s;
+}
+.sns a:before {
+  content: '';
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  border-radius: 50%;
+  z-index: -1;
+  left: 50%;
+  transform: translateX(-50%) scale(0);
+  transition: 0.5s;
+}
+.sns a:hover {
+  color: #fff;
+}
+
+.sns a:hover:before {
+  transform: translateX(-50%) scale(1);
+}
+.sns a:nth-child(1):before {
+  background-color: #3b5999;
+}
+.sns a:nth-child(2):before {
+  background-color: #e4405f;
+}
+.sns a:nth-child(5):before {
+  background-color: #cd201f;
+}
+.sns a:nth-child(3):before {
+  background-color: #25D366;
+}
+
+/* Main */
+.container {
+  height: 100%;        
+  width: 100%;
+  padding-left: 300px;
+  /* border: 1px solid #000; */
+}
+.content {
+  width: 100.0%;
+  height: 100%;
+  margin-top: 20px;
+  /* border: 3px solid red;  */
+  
+  
+}
+.Coloum {
+  width: 25%;
+  height: auto;
+  /* border: 5px solid #000; */
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+  vertical-align: top;
+}
+.photo {
+  margin-bottom: 20px;
+
+}
+.photo img {
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+
+}
