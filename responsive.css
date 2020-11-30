@@ -1,3 +1,69 @@
-@media (max-width: 768px) {
-  
+@media (max-width: 768px)
+ {
+    
+  .cd-section {
+    height: auto;
+  }
+
+  .cd-section > div {
+    height: auto;
+  }
+  .content {
+    position: static;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  header {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #808080;
+  }
+  .logo {
+    width: 100%;
+    display: block;
+    transform: translate(0,0);
+  }    
+  .logo img {
+    width: 70%;
+    transform: translate(0,0);
+    padding-top: 10px;
+  }
+  .logo a {
+    width: 16%;
+    display: block;
+    transform: translate(0,0);
+  }
+  .slogan {
+    display: none;
+  }
+  .sns {
+    float: right;
+    transform: translate(270px,-38px);
+  }
+ 
+  .container 
+  {
+    margin-top: 20%;
+  }
+  .container {
+
+    padding-left: 0;
+  }
+  .Coloum {
+    width: 100%;
+    height: auto;
+    /* border: 5px solid #000; */
+    display: block;
+    margin-right: 30px;
+    position: relative;
+    vertical-align: top;
+  }
+  }
+  .photo {
+    margin-bottom: 10px;
+  }
 }
