@@ -73,10 +73,11 @@ width: 100%;
 
 /*  SNS */
 .sns {
-  transform: translate(26%, 200px);
+  transform: translate(0%, 200px);
   /* border: 1px solid #000; */
   width: 100%;
   margin-left: 0px;
+  padding-left: 20%;
 }
 .sns a {
   transform: translate(0%, 0%);
